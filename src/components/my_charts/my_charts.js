@@ -1,4 +1,5 @@
-import { Doughnut } from "react-chartjs-2"
+import { Chart } from "react-chartjs-2"
+import 'chart.js/auto';
 
 const data = {
     labels: ['Mon','Tue','Wed','Thurs','Fri'],
@@ -8,10 +9,10 @@ const data = {
             data: [25,24,25,25,3],
             borderColor: ['rgba(255,206,86,0.2)'],
             backgroundColor: ['rgba(232,99,132,1)',
-            'rgba(232,211,6,1)',
-            'rgba(54,162,235,1)',
-            'rgba(255,159,64,1)',
-            'rgba(153,102,255,1)' ],
+                'rgba(232,211,6,1)',
+                'rgba(54,162,235,1)',
+                'rgba(255,159,64,1)',
+                'rgba(153,102,255,1)' ],
             pointBackgroundColor: 'rgba(255,206,86,0.2)',
         }
 
@@ -34,7 +35,7 @@ const options = {
             responsive:true,
             animation:{
                 animateScale: true,
-                           }
+            }
         }
     }
 
@@ -43,8 +44,8 @@ const options = {
 function DoughnutChart() {
     return (
         <div>
-           <h1>Creating a Doughnut Chart</h1>
-           <Doughnut data={data} options={options} />
+            <h1>Creating a Doughnut Chart</h1>
+            <Chart type={"doughnut"} data={data} options={options} />
         </div>
     )
 }
