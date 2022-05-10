@@ -1,0 +1,62 @@
+table{
+	border-collapse:collapse;
+	margin: 5px 10px;
+	padding: 0 0;
+}
+
+td{
+	height: 70px;
+	width: 70px;
+}
+
+td:hover{
+	outline: 2px solid #f5f24b;
+}
+
+.picture{
+	height:70px;
+	width:70px;
+}
+
+.picture-at-the-end {
+    position: relative;
+    width: 100%;
+  }
+
+.white{
+	background-color: #ffffff;
+}
+
+.green{
+	background-color: #729e4e;
+}
+
+.num{
+	padding: 0px 45px 20px 0px;
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+
+.number-at-the-end{
+    position: absolute;
+	font-weight: bold;
+}
+
+.green-mark{
+	color: #729e4e;
+}
+
+.white-mark{
+	color: white;
+}
+
+.alpha{
+	padding: 45px 0px 0px 45px;
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+} 
+
+.alpha-number{
+	padding: 5px 0px 0px 45px;
+	margin: 0px 0px 0px 0px;
+}

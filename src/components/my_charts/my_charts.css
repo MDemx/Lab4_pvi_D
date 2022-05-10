@@ -1,0 +1,14 @@
+.chart-container {
+	margin: 3% 3%; 
+	display:flex; 
+	justify-content: 
+	center; 
+	flex-wrap: wrap;
+	height: 100px;
+	width: 100 px;
+}
+
+.chart-item {
+	min-width: 40%; 
+	min-height: 20%;
+}

@@ -1,0 +1,33 @@
+.timer-container {
+	width: 68%;
+	text-align: center;
+	margin: 5px auto;
+	background-color:  #2a2b2a;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	color: white;
+}
+
+.timer {
+	font-size: 42px;
+}
+
+.button {
+	padding: .3rem 1.2rem;
+	margin: .2rem;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+.button:focus {
+	outline-width: 2;
+}
+
+.buttons{
+	height: 100%; 
+	width: 100%; 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+}

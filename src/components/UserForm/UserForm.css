@@ -1,0 +1,109 @@
+.my-form{
+
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+textarea{
+
+	height: 25px;
+	min-height: 25px;
+	max-height: 100px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+a, label{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.info-form{
+
+	border: 2px solid #808080;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #2a2b2a;
+	max-height: 525px;
+	width: 350px;
+	margin: 10px 10px 10px 50px;
+	padding: 2% 1% 1% 1%;
+}
+
+.info-item{
+	padding: 2px;
+	margin: 2px;
+	align-self: center;
+	width: 80%;
+}
+
+.input-field input, select, .button{
+	width: 100%;
+}
+
+.input-field input:hover, select:hover, textarea:hover{
+
+	outline: 1px solid #add8e6;
+}
+
+.info-item p{
+
+	color:white;
+	padding: 0px 0px 3px 0px;
+	margin: 0px 0px 1px 0px;
+}
+
+.input-radio{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #3a3b3a;
+	border: 2px solid #3a3b3a;
+}
+
+.button{ 
+	border-radius: 5px;
+	font-weight:bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.button:hover{ 
+	background-color:#87cefa;
+}
+
+.refs{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #3a3b3a;
+}
+
+.info-form a:hover, label:hover{  
+	color: #87cefa;
+	text-decoration: underline;
+}
+
+.btn{
+	height: 100%;
+	width: 50%;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #ffffff;
+	color:black; 
+	margin: 5px 5px 5px 5px;
+}
+
+.btn:hover{
+	background-color: #36CAAB;
+	font-weight: bolder;
+	width: 50%;
+	cursor:pointer;
+}

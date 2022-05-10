@@ -1,0 +1,16 @@
+.user-photo {
+	height: 30%;
+	min-height: 5px;
+	background-color: #3a3b3a;
+	display: flex;
+	align-items: center;
+	margin: 0 auto 3% auto;
+	padding: 0 20px 0 20px;
+}
+
+img {
+	height: 135px;
+	width: 135px;
+	display: flex;
+	border-radius: 100px;
+}
